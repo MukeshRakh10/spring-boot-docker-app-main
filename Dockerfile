@@ -1,10 +1,9 @@
 FROM openjdk:8
 
-COPY target/spring-boot-docker-app.jar  /usr/app/
+#COPY target/spring-boot-docker-app.jar  /usr/app/
+COPY target/spring-boot-docker-app.jar
 
-WORKDIR /usr/app/
-RUN docker build -t sb-app-one .
-RUN docker build  -t -p 8081:8081 sb-app-one
+#WORKDIR /usr/app/
 ENTRYPOINT ["java", "-jar", "spring-boot-docker-app.jar"]
 
 
