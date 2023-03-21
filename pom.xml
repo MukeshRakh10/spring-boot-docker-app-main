@@ -45,6 +45,17 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
+			
+			<plugin>
+          <executions>
+                  <execution>
+		    <goals>
+		      <goal>GOAL NAME</goal>
+                    </goals>
+               </execution>
+          </executions>
+			
 		</plugins>
 	</build>
 </project>
