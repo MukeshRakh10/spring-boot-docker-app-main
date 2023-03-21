@@ -46,16 +46,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			
-			
-			<plugin>
-			  <executions>
-				  <execution>
-				    <goals>
-				      <goal>install</goal>
-				    </goals>
-			       </execution>
-			  </executions>
-			</plugin>
+
+    <defaultGoal>package</defaultGoal>
+
 		</plugins>
 	</build>
 </project>
